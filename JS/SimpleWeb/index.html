@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 100px;
+        }
+        .section {
+            margin: 20px 0;
+            padding: 10px;
+            border-top: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    <div class="section">
+        <h1 id="message">Hello, World!</h1>
+        <input type="text" id="textInput" placeholder="Enter your message">
+        <button id="changeButton">Change Message</button>
+    </div>
+
+    <div class="section">
+        <input type="number" id="number1" placeholder="Enter first number">
+        <input type="number" id="number2" placeholder="Enter second number">
+        <button id="calculateButton">Calculate Sum</button>
+        <p id="sumResult"></p>
+    </div>
+
+    <!-- The existing code -->
+
+    <script src="changeMessage.js"></script>
+    <script src="calculateSum.js"></script>
+</body>
+</html>
