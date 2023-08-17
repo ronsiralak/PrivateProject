@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block title %}
+    <title>Hello World</title>
+{% endblock %}
+
+{% block content %}
+    <h1 style="color: red;">{{name | upper}}  {{age}} ฝากถอนโอนไว</h1>
+    <p>sample word</p>
+
+    {% if age >= 30 %}
+        <h3>more than 30 it {{age}}</h3>
+    {% else %}
+        <h3>less than 30 it {{age}}</h3>
+    {% endif %}
+    
+{% endblock %}
